@@ -36,7 +36,6 @@ This is a simple chat application built in Python, featuring both a Command Line
 # If using Homebrew on macOS, ensure to install tkinter support
 brew install python-tk
 
- ## --------------------------------------
 
 ## Running the Application
     For used CLI version:
