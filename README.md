@@ -53,4 +53,9 @@ brew install python-tk
         cd GUI
         python ClientGUI.py
 
+
+## Screenshot
+<img width="948" alt="Screenshot 2024-10-26 at 10 32 00 PM" src="https://github.com/user-attachments/assets/7f3e441a-a426-4366-b22b-652f7c1e7604">
+
+
 ## Good Luck 😎👍🏻
