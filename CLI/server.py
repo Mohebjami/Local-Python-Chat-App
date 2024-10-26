@@ -7,7 +7,7 @@ def handle_client(client_socket):
         try:
             message = client_socket.recv(1024).decode('utf-8')
             if message:
-                print(f"Client: {message}") 
+                print(f"Client: {message}")
             else:
                 break
         except:
@@ -15,7 +15,7 @@ def handle_client(client_socket):
 
 def start_server():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(('localhost', 5555)) 
+    server.bind(('localhost', 5555))  # Bind the server to localhost and port 5555
     server.listen(1)
     print("Server started, waiting for connections...")
 
@@ -28,7 +28,7 @@ def start_server():
 
     # Loop to send messages from the server to the client
     while True:
-        message = input("You: ")  # The server's message
+        message = input("You: ")
         client_socket.send(message.encode('utf-8'))
 
 start_server()
